@@ -1,0 +1,13 @@
+.mainDiv {
+    display: flex;
+    padding: 20px;
+}
+.main__nav {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.quoteDiv {
+    width: 100%;
+    padding: 0 30px;
+}

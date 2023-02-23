@@ -1,0 +1,13 @@
+.Layout__header {
+    padding: 20px;
+    background: lightgreen;
+}
+
+.layout__nav {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}

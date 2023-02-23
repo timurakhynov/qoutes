@@ -1,0 +1,28 @@
+.EditForm {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.EditForm_form {
+    display: flex;
+    flex-direction: column;
+}
+.EditForm_form > label, .form > button {
+    margin-top: 20px;
+}
+.EditForm_textArea {
+    height: 100px;
+}
+.cancelButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bolder;
+    border: none;
+    background: none;
+}
+.cancelButton:hover {
+    cursor: pointer;
+    color: red;
+}
